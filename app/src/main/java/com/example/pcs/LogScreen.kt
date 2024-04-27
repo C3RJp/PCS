@@ -34,7 +34,7 @@ fun Logscreen(navController: NavController)
             contentDescription = "log_image",
             modifier = Modifier.size(200.dp)
         )
-        Text(text = "Welcome", fontSize = 28.sp, fontWeight = FontWeight.Bold)
+        Text(text = "Bienvenido", fontSize = 28.sp, fontWeight = FontWeight.Bold)
         Spacer(modifier = Modifier.height(8.dp))
 
         OutlinedTextField(value ="", onValueChange = {}, label = {
